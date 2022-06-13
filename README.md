@@ -1,5 +1,5 @@
 # HarmfulContentDetection
-HarmfulContentDetection desktop application -object detection with ML.NET, ONNX
+HarmfulContentDetection desktop application - Application that performs real time malicious content detection on videos and web cam with ML.NET, ONNX.
 
 ## Preparation
 
