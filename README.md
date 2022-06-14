@@ -22,12 +22,7 @@ HarmfulContentDetection desktop application contains two modules: RealTime, WebC
 
 - Web Cam Object Detection application detects objects in real time in images on web cam according to selected categories and presents each frame to you instantly.
 
-
-<p>
-   <video width="850" src="https://github.com/gulsahtan/HarmfulContentDetectionDesktop/blob/master/HarmfulContentDetection.FormApp/Assets/applicationvideo.mp4"></a>
-</p>
-
-
+- Demo Video  https://github.com/gulsahtan/HarmfulContentDetectionDesktop/blob/master/HarmfulContentDetection.FormApp/Assets/applicationvideo.mp4
 
 ## Team
 
