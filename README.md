@@ -5,7 +5,7 @@ HarmfulContentDetection desktop application - Application that performs real tim
 
 Run the following commands in order
 ```bash
-git clone https://github.com/gulsahtan/HarmfulContentDetection
+git clone https://github.com/gulsahtan/HarmfulContentDetectionDesktop
 
 ```
 ## Wep URL
