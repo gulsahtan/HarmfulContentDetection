@@ -1,6 +1,6 @@
 ﻿namespace HarmfulContentDetection.FormApp
 {
-    partial class VideoWAudio
+    partial class RealTimePipelineForm
     {
         /// <summary>
         /// Required designer variable.
@@ -37,7 +37,6 @@
             this.Cigarette = new System.Windows.Forms.CheckBox();
             this.Violence = new System.Windows.Forms.CheckBox();
             this.Alcohol = new System.Windows.Forms.CheckBox();
-            this.label1 = new System.Windows.Forms.Label();
             this.btnPause = new System.Windows.Forms.Button();
             this.btnPlay = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
@@ -76,7 +75,7 @@
             this.openToolStripMenuItem.Name = "openToolStripMenuItem";
             this.openToolStripMenuItem.Size = new System.Drawing.Size(174, 22);
             this.openToolStripMenuItem.Text = "Open (.mp3, .mp4)";
-            this.openToolStripMenuItem.Click += new System.EventHandler(this.openToolStripMenuItem_Click);
+            this.openToolStripMenuItem.Click += new System.EventHandler(this.openToolStripMenuItem_Click_1);
             // 
             // splitContainer1
             // 
@@ -93,7 +92,6 @@
             this.splitContainer1.Panel1.Controls.Add(this.Cigarette);
             this.splitContainer1.Panel1.Controls.Add(this.Violence);
             this.splitContainer1.Panel1.Controls.Add(this.Alcohol);
-            this.splitContainer1.Panel1.Controls.Add(this.label1);
             this.splitContainer1.Panel1.Controls.Add(this.btnPause);
             this.splitContainer1.Panel1.Controls.Add(this.btnPlay);
             // 
@@ -154,16 +152,6 @@
             this.Alcohol.Text = "Alcohol";
             this.Alcohol.UseVisualStyleBackColor = true;
             // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(396, 30);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(59, 15);
-            this.label1.TabIndex = 3;
-            this.label1.Text = "Frame No";
-            // 
             // btnPause
             // 
             this.btnPause.Location = new System.Drawing.Point(734, 21);
@@ -173,7 +161,7 @@
             this.btnPause.TabIndex = 1;
             this.btnPause.Text = "Pause";
             this.btnPause.UseVisualStyleBackColor = true;
-            this.btnPause.Click += new System.EventHandler(this.btnPause_Click);
+            this.btnPause.Click += new System.EventHandler(this.btnPause_Click_1);
             // 
             // btnPlay
             // 
@@ -184,7 +172,7 @@
             this.btnPlay.TabIndex = 0;
             this.btnPlay.Text = "Play";
             this.btnPlay.UseVisualStyleBackColor = true;
-            this.btnPlay.Click += new System.EventHandler(this.btnPlay_Click);
+            this.btnPlay.Click += new System.EventHandler(this.btnPlay_Click_1);
             // 
             // panel1
             // 
@@ -206,7 +194,7 @@
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
-            // VideoWAudio
+            // RealTimePipelineForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -215,10 +203,9 @@
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
             this.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.Name = "VideoWAudio";
+            this.Name = "RealTimePipelineForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Object Detection on Video(with Audio)";
-            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.VideoWAudio_FormClosing);
+            this.Text = "Real Time Pipeline";
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.splitContainer1.Panel1.ResumeLayout(false);
@@ -235,19 +222,18 @@
 
         #endregion
 
+        private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem fileToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem openToolStripMenuItem;
         private System.Windows.Forms.SplitContainer splitContainer1;
-        private System.Windows.Forms.Button btnPause;
-        private System.Windows.Forms.Button btnPlay;
-        private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Label label2;
         private System.Windows.Forms.CheckBox Cigarette;
         private System.Windows.Forms.CheckBox Violence;
         private System.Windows.Forms.CheckBox Alcohol;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnPause;
+        private System.Windows.Forms.Button btnPlay;
+        private System.Windows.Forms.Panel panel1;
     }
 }

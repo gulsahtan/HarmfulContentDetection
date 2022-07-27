@@ -7,13 +7,21 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="AForge" Version="2.2.5" />
     <PackageReference Include="AForge.Video" Version="2.2.5" />
-    <PackageReference Include="AForge.Video.DirectShow" Version="2.2.4.1" />
+    <PackageReference Include="AForge.Video.DirectShow" Version="2.2.5" />
+    <PackageReference Include="CairoSharp" Version="3.24.24.38" />
     <PackageReference Include="Emgu.CV" Version="4.5.4.4788" />
     <PackageReference Include="Emgu.CV.Bitmap" Version="4.5.4.4788" />
     <PackageReference Include="Emgu.CV.runtime.windows" Version="4.5.4.4788" />
+    <PackageReference Include="GdkSharp" Version="3.24.24.38" />
+    <PackageReference Include="GioSharp" Version="3.24.24.38" />
+    <PackageReference Include="gstreamer-sharp-netcore" Version="0.0.8" />
+    <PackageReference Include="Microsoft.ML" Version="1.7.1" />
+    <PackageReference Include="Microsoft.ML.ImageAnalytics" Version="1.7.1" />
     <PackageReference Include="Microsoft.ML.OnnxRuntime" Version="1.9.0" />
+    <PackageReference Include="Microsoft.ML.OnnxTransformer" Version="1.7.1" />
+    <PackageReference Include="OpenCvSharp4" Version="4.1.1.20191110" />
+    <PackageReference Include="OpenCvSharp4.Windows" Version="4.1.1.20191110" />
     <PackageReference Include="System.Configuration.ConfigurationManager" Version="5.0.0" />
   </ItemGroup>
 
@@ -53,6 +61,12 @@
 
   <ItemGroup>
     <ProjectReference Include="..\src\HarmfulContentDetection.Scorer\HarmfulContentDetection.Scorer.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="WebCamPipelineForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
 
 </Project>

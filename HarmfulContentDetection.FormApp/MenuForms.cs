@@ -50,9 +50,23 @@ namespace HarmfulContentDetection.FormApp
             }
         }  
 
-        private void videoToolStripMenuItem1_Click(object sender, EventArgs e)
+        
+
+        private void MenuForms_Load(object sender, EventArgs e)
         {
-            VideoWAudio to = new VideoWAudio();
+
+        }
+
+        private void toolStripMenuItem2_Click(object sender, EventArgs e)
+        {
+            WebCamPipelineForm to = new WebCamPipelineForm();
+            to.Show();
+            this.Hide();
+        }
+
+        private void toolStripMenuItem3_Click(object sender, EventArgs e)
+        {
+            RealTimePipelineForm to = new RealTimePipelineForm();
             to.Show();
             this.Hide();
         }
