@@ -12,9 +12,9 @@ git clone https://github.com/gulsahtan/HarmfulContentDetectionDesktop
 
 - Demo application is available at https://harmfulcontentdetection.com/
 
--User Name: user
+- User Name: user
 
--User Password: user12345
+- User Password: user12345
 
 - After downloading the desktop application from the Real-Time Object Detection module, run the HarmfulContentDetection.FormApp.exe file.
 
