@@ -8,7 +8,7 @@ Run the following commands in order
 git clone https://github.com/gulsahtan/HarmfulContentDetectionDesktop
 
 ```
-## Wep URL
+## Web URL
 
 - Demo application is available at https://harmfulcontentdetection.com/
 
@@ -32,7 +32,7 @@ HarmfulContentDetection desktop application contains two modules: RealTime, WebC
 
 - Associate Professor. Asım Sinan Yüksel: Süleyman Demirel University Computer Engineering Department, Algorithm Design, Architectural Design, Test
 
-- Lecturer Fatma Gülşah TAN: Süleyman Demirel University Computer Engineering Department, Algorithm Design, Architectural Design, Front-End, Back-End, Test
+- Fatma Gülşah TAN: Süleyman Demirel University Computer Engineering Department, Algorithm Design, Architectural Design, Front-End, Back-End, Test
 
 ## License
 
