@@ -1,5 +1,6 @@
 # HarmfulContentDetectionDesktop
-HarmfulContentDetection desktop application - Application that performs real time harmful content detection on videos and web cam with ML.NET, ONNX.
+
+HarmfulContentDetection application, is an application that detects harmful content in real-time in videos using ONNX, ML.NET. This application includes a method classical object detection. It can be used by running the HarmfulContentDetection.FormApp.exe file downloaded from the "Real-Time Object Detection Desktop App (Without Pipeline)" application in the Video Censorship menu.
 
 ## Preparation
 
@@ -8,15 +9,6 @@ Run the following commands in order
 git clone https://github.com/gulsahtan/HarmfulContentDetectionDesktop
 
 ```
-## Web URL
-
-- Demo application is available at https://harmfulcontentdetection.com/
-
-- User Name: user
-
-- User Password: user12345
-
-- After downloading the desktop application from the Real-Time Object Detection module, run the HarmfulContentDetection.FormApp.exe file.
 
 ## Usage
 
